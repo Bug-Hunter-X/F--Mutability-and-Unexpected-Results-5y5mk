@@ -1,0 +1,2 @@
+# F# Mutability Bug
+This example demonstrates how mutability in F# can lead to unexpected results if not carefully managed. The initial calculation of `z` uses the initial values of `x` and `y`. Changing `x` and `y` later doesn't change `z`. This behavior might be surprising to programmers coming from imperative backgrounds.
